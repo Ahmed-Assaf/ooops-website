@@ -1,0 +1,1461 @@
+/*-------------------------------public settings-------------------------------*/
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-group .form-control:focus {
+    box-shadow: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.main-color {
+    color: #c8445b;
+}
+
+.secondary-color {
+    color: #fe8f64;
+}
+
+.head-text {
+    border-right: 5px solid #ff8a5c;
+    padding: 8px;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+/*nav-bar*/
+
+.nav-bar {
+    height: 100vh;
+}
+
+.nav-bar .navbar {
+    height: 100%;
+    background-image: url(../../imgs/bg@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.nav-bar .navbar .options {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .navbar .options a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav-bar .navbar .add-ad a {
+    background-color: #FFF;
+    color: #c8445b;
+    padding: 5px 20px;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.nav-bar .navbar .logo {
+    margin: auto;
+}
+
+.nav-bar .navbar .logo a img {
+    width: 350px;
+}
+
+.creat-add-page .nav-bar,
+.creat-add-page-1 .nav-bar,
+.login-page .nav-bar,
+.register-page .nav-bar,
+.code-page .nav-bar,
+.password-page .nav-bar {
+    height: 350px;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #cf455c;
+    padding: 50px 0;
+}
+
+.footer .oops .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer .oops .logo img {
+    width: 220px;
+}
+
+.footer .oops p {
+    color: #FFF;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.footer .pages,
+.footer .social,
+.footer .app {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .pages ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.footer .pages ul li {
+    margin-bottom: 10px;
+}
+
+.footer .pages ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer .pages ul li a:hover {
+    color: #fe8f64;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.footer .social a {
+    color: #FFF;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer .social .fa-instagram:hover {
+    color: #e4405f;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.footer .social .fa-twitter:hover {
+    color: #55acee;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.footer .social .fa-facebook:hover {
+    color: #3b5999;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.footer .app .inside h4 {
+    text-align: center;
+    color: #FFF;
+    margin: auto;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.footer .app .inside .stores {
+    margin: auto;
+}
+
+.footer .app .inside .stores .google-play,
+.footer .app .inside .stores .app-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    font-size: 18px;
+    position: relative;
+}
+
+.footer .app .inside .stores .google-play a,
+.footer .app .inside .stores .app-store a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.footer .app .inside .stores i {
+    margin-right: 10px;
+    color: #fe8f64;
+}
+
+.footer .app .inside .stores p {
+    font-weight: 600;
+}
+
+
+/*-------------------------------home page-------------------------------*/
+
+
+/*filter*/
+
+.search-filter {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-filter form {
+    background-image: url("../../imgs/Rectangle 12 copy.png");
+    box-shadow: 2px 2px 8px #686868;
+    padding: 20px;
+    width: 80%;
+    z-index: 6;
+}
+
+.search-filter form .search-field .form-group input {
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+    padding: 30px;
+}
+
+.search-filter form .search-field .form-group input:focus {
+    outline: none;
+}
+
+.search-filter form .area .form-group,
+.search-filter form .cars-field .form-group,
+.search-filter form .Category .form-group,
+.search-filter form .year .form-group,
+.search-filter form .transmission .form-group,
+.search-filter form .condition .form-group {
+    background-color: #FFF;
+    border-radius: 100px;
+    padding: 11px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-filter form .area .form-group .form-control,
+.search-filter form .cars-field .form-group .form-control,
+.search-filter form .Category .form-group .form-control,
+.search-filter form .year .form-group .form-control,
+.search-filter form .transmission .form-group .form-control,
+.search-filter form .condition .form-group .form-control {
+    background: transparent;
+    border: none;
+    padding: 0 8px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.search-filter form .area .form-group i,
+.search-filter form .cars-field .form-group i,
+.search-filter form .Category .form-group i,
+.search-filter form .year .form-group i,
+.search-filter form .transmission .form-group i,
+.search-filter form .condition .form-group i {
+    position: absolute;
+    left: 25px;
+    font-size: 22px;
+    color: #c8445b;
+}
+
+.search-filter form .search-btn button {
+    width: 100%;
+    background-color: #FFF;
+    border: none;
+    color: #767676;
+    border-radius: 100px;
+    padding: 18px;
+}
+
+.search-filter form .search-btn button:active {
+    background-color: #FFF;
+    color: #767676;
+}
+
+.search-filter form .search-btn button:focus {
+    box-shadow: none;
+}
+
+.search-filter form .search-btn button:focus:active {
+    box-shadow: none;
+}
+
+
+/*categories*/
+
+.categories {
+    margin-top: 90px;
+}
+
+.categories .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories .icon {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.categories .icon i {
+    color: #FFF;
+    background-size: cover;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.categories .cars i {
+    background-image: url(../../imgs/Rectangle\ 51@2x.png);
+}
+
+.categories .phones i {
+    background-image: url(../../imgs/Rectangle\ 52.png);
+}
+
+.categories .real-estate i {
+    background-image: url(../../imgs/Rectangle\ 54.png);
+}
+
+.categories .fashion i {
+    background-image: url(../../imgs/Rectangle\ 53.png);
+}
+
+.categories .electronics i {
+    background-image: url(../../imgs/Rectangle\ 51@2x.png);
+}
+
+.categories .pets i {
+    background-image: url(../../imgs/Rectangle\ 52.png);
+}
+
+.categories .icon .dropdown {
+    margin-top: 20px;
+}
+
+.categories .icon .dropdown button {
+    background-color: #444;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 100px;
+    width: 170px;
+}
+
+.categories .icon .dropdown button:active {
+    background-color: #444;
+}
+
+.categories .icon .dropdown button:focus {
+    box-shadow: none;
+}
+
+.categories .icon .dropdown button p {
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/*recent-ads*/
+
+.recent-ads {
+    padding: 80px 0;
+}
+
+.recent-ads .ads {
+    padding-top: 30px;
+}
+
+.recent-ads .ads .row {
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.recent-ads .ads .row .card {
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 4px #DDD;
+    position: relative;
+}
+
+.recent-ads .ads .row .card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.recent-ads .ads .row .card .card-body h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 34px;
+    color: #4d4d4d;
+    margin-bottom: 25px;
+}
+
+.recent-ads .ads .row .card .card-body ul {
+    padding-right: 20px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.recent-ads .ads .row .card .card-body ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.recent-ads .ads .row .card .card-body ul li i {
+    margin-left: 10px;
+    font-size: 26px;
+    width: 40px;
+    text-align: center;
+}
+
+.recent-ads .more {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.recent-ads .more a {
+    text-decoration: none;
+    background-image: url("../../imgs/Rectangle\ 51@2x.png");
+    background-size: contain;
+    padding: 10px 100px;
+    color: #FFF;
+    border-radius: 100px;
+    font-size: 22px;
+}
+
+
+/*subscribe*/
+
+.subscribe {
+    background-image: url("../../imgs/Rectangle\ 9@2x.png");
+    padding: 50px 0;
+}
+
+.subscribe .inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe .inside form {
+    width: 60%;
+    text-align: center;
+}
+
+.subscribe .inside form h4 {
+    font-weight: 700;
+    color: #FFF;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.subscribe .inside form .form-group input {
+    border: none;
+    border-radius: 100px;
+    padding: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.subscribe .inside form .form-group input::placeholder {
+    font-size: 20px;
+    font-weight: 700;
+    color: #bcbcbc;
+}
+
+.subscribe .inside form button {
+    background-color: #FFF;
+    border: none;
+    color: #fe8f64;
+    border-radius: 100px;
+    padding: 15px 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subscribe .inside form button:active {
+    color: #fe8f64;
+}
+
+.subscribe .inside form button:focus {
+    box-shadow: none;
+}
+
+
+/*-------------------------------cars page-------------------------------*/
+
+.cars-page,
+.car-details-page,
+.creat-add-page,
+.creat-add-page-1,
+.login-page,
+.register-page,
+.code-page,
+.password-page {
+    background-color: #f1f1f1;
+}
+
+.cars-page .search-filter .row {
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+/*featured-ads*/
+
+.featured-ads {
+    padding: 80px 0;
+}
+
+.featured-ads .ads,
+.cars-page .all-ads .ads {
+    padding-top: 30px;
+}
+
+.featured-ads .ads .row,
+.cars-page .all-ads .ads .row {
+    margin-bottom: 30px;
+}
+
+.featured-ads .ads .row .card,
+.cars-page .all-ads .ads .row .card {
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 4px #DDD;
+    position: relative;
+}
+
+.featured-ads .ads .row .card a,
+.cars-page .all-ads .ads .row .card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.featured-ads .ads .row .card .card-body h3,
+.cars-page .all-ads .ads .row .card .card-body h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 34px;
+    color: #4d4d4d;
+    margin-bottom: 25px;
+}
+
+.featured-ads .ads .row .card .card-body ul,
+.cars-page .all-ads .ads .row .card .card-body ul {
+    padding-right: 20px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.featured-ads .ads .row .card .card-body ul li,
+.cars-page .all-ads .ads .row .card .card-body ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.featured-ads .ads .row .card .card-body ul li i,
+.cars-page .all-ads .ads .row .card .card-body ul li i {
+    margin-left: 10px;
+    font-size: 26px;
+    width: 40px;
+    text-align: center;
+}
+
+.featured-ads .more,
+.cars-page .all-ads .more {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.featured-ads .more a,
+.cars-page .all-ads .more a {
+    text-decoration: none;
+    background-image: url("../../imgs/Rectangle\ 51@2x.png");
+    background-size: contain;
+    padding: 10px 100px;
+    color: #FFF;
+    border-radius: 100px;
+    font-size: 22px;
+}
+
+.cars-page .all-ads {
+    padding: 20px 50px;
+}
+
+.cars-page .all-ads .pages {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.cars-page .all-ads .pages .pagination {
+    margin: 0;
+}
+
+.cars-page .all-ads .pages .pagination .page-item {
+    margin: 0 10px;
+}
+
+.cars-page .all-ads .pages .pagination .page-item:focus {
+    outline: none;
+}
+
+.cars-page .all-ads .pages .pagination .page-item a {
+    font-size: 20px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cf455c;
+    color: #FFF;
+}
+
+.cars-page .all-ads .pages .pagination .page-item a:focus {
+    box-shadow: none;
+}
+
+
+/*-------------------------------car details page-------------------------------*/
+
+.car-details-page .page-content,
+.creat-add-page .page-content,
+.creat-add-page-1 .page-content,
+.login-page .page-content,
+.register-page .page-content,
+.code-page .page-content,
+.password-page .page-content {
+    padding: 50px 0;
+}
+
+.car-details-page .page-content .title {
+    margin-bottom: 40px;
+}
+
+.car-details-page .page-content .title h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.car-details-page .page-content .title .location {
+    border-left: 3px solid #fe8f64;
+}
+
+.car-details-page .page-content .title .location,
+.car-details-page .page-content .title .time {
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 5px;
+    color: #fe8f64;
+    font-size: 24px;
+}
+
+.car-details-page .page-content .car-preview .images img {
+    width: 100%;
+}
+
+.car-details-page .page-content .car-preview .images {
+    position: relative;
+}
+
+.car-details-page .page-content .car-preview .images .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.car-details-page .page-content .car-preview .images:hover .overlay {
+    opacity: 1;
+}
+
+.car-details-page .page-content .car-preview .options .fav,
+.car-details-page .page-content .car-preview .options .report {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-details-page .page-content .car-preview .options .row {
+    padding: 0 150px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.car-details-page .page-content .car-preview .options .ins {
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+}
+
+.car-details-page .page-content .car-preview .options .ins a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+
+.car-details-page .page-content .car-preview .inside {
+    background-color: #FFF;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    padding: 20px 30px;
+    font-size: 22px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 6px #DDD;
+}
+
+.car-details-page .page-content .car-preview .extentions {
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.car-details-page .page-content .car-preview .details {
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.car-details-page .page-content .car-preview .extentions ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.car-details-page .page-content .car-preview .info .row .send-message {
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    resize: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.car-details-page .page-content .car-preview .info .row .send {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.car-details-page .page-content .car-preview .info .row .send button {
+    background-image: url("../../imgs/Rectangle\ 51@2x.png");
+    background-size: contain;
+    padding: 15px 120px;
+    color: #FFF;
+    border-radius: 100px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 2px 2px 6px #DDD;
+    cursor: pointer;
+}
+
+.car-details-page .page-content .car-preview .info .row .more button:focus {
+    outline: none;
+}
+
+.car-details-page .page-content .car-preview .info h3 {
+    margin-bottom: 30px;
+}
+
+.car-details-page .page-content .car-preview .info .row .send-message::placeholder {
+    color: #bcbcbc;
+}
+
+.car-details-page .page-content .car-preview .info .row .send-message:focus {
+    outline: none;
+}
+
+.car-details-page .page-content .main-info .price {
+    background-color: #FFF;
+    border-radius: 35px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 4px #DDD;
+    margin-bottom: 80px;
+}
+
+.car-details-page .page-content .main-info .price p {
+    font-size: 50px;
+}
+
+.car-details-page .page-content .main-info .connection .message,
+.car-details-page .page-content .main-info .connection .phone {
+    text-align: center;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.car-details-page .page-content .main-info .connection .message {
+    background-color: #cf455b;
+    margin-bottom: 40px;
+}
+
+.car-details-page .page-content .main-info .connection .phone {
+    background-color: #ff8a5c;
+    margin-bottom: 80px;
+}
+
+.car-details-page .page-content .main-info .connection .seller {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.car-details-page .page-content .main-info .connection .seller .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.car-details-page .page-content .main-info .connection .seller .about i {
+    margin-left: 20px;
+    color: #4c4c4c;
+}
+
+.car-details-page .page-content .main-info .connection .seller .about .name {
+    text-align: center;
+}
+
+.car-details-page .page-content .main-info .connection .seller .about .name h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.car-details-page .page-content .main-info .connection .seller .about .name p {
+    font-size: 20px;
+}
+
+.car-details-page .page-content .main-info .connection .seller a {
+    margin: auto;
+    display: table;
+    font-size: 20px;
+    color: #000;
+}
+
+.car-details-page .page-content .main-info .connection .instructions {
+    text-align: center;
+    background-color: #646464;
+    color: #FFF;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.car-details-page .page-content .main-info .connection .instructions h5 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.car-details-page .page-content .main-info .connection .instructions ul {
+    text-align: right;
+    line-height: 2;
+    font-size: 20px;
+    padding-right: 22px;
+    list-style-image: url("../../imgs/dot.svg");
+}
+
+.car-details-page .page-content .main-info .connection .instructions ul li {
+    margin-bottom: 15px;
+}
+
+
+/*-------------------------------creat ad page-------------------------------*/
+
+.creat-add-page .page-content .ad-form {
+    background-color: #ececec;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 2px 2px 6px #DDD;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.creat-add-page .page-content .ad-form form .text-field {
+    width: 100%;
+    padding: 16px 15px;
+    border-radius: 100px;
+    border: none;
+}
+
+.creat-add-page .page-content .ad-form form input:focus {
+    outline: none;
+}
+
+.creat-add-page .page-content .ad-form form h4 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.creat-add-page .page-content .ad-form form .cars-options {
+    display: none;
+}
+
+.creat-add-page .page-content .ad-form form .field {
+    margin-bottom: 30px;
+}
+
+.creat-add-page .page-content .ad-form form .form-group {
+    background-color: #FFF;
+    border-radius: 100px;
+    padding: 11px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.creat-add-page .page-content .ad-form form .form-group .form-control {
+    background: transparent;
+    border: none;
+    padding: 0 8px;
+    z-index: 5;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.creat-add-page .page-content .ad-form form .form-group .form-control:focus {
+    color: #ff8a5c;
+}
+
+.creat-add-page .page-content .ad-form form .form-group i {
+    position: absolute;
+    left: 25px;
+    font-size: 22px;
+    color: #ff8a5c;
+}
+
+.creat-add-page .page-content .ad-form form .extentions {
+    margin-bottom: 100px;
+}
+
+.creat-add-page .page-content .ad-form form .extentions h4 {
+    text-align: right;
+}
+
+.creat-add-page .page-content .ad-form form .extentions .check-fields .row {
+    margin: 20px 0;
+}
+
+.creat-add-page .page-content .ad-form form .extentions .check-fields .row .col-4 {
+    display: grid;
+}
+
+.creat-add-page .page-content .ad-form form .extentions .check-fields .form-check {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creat-add-page .page-content .ad-form form .extentions .check-fields .form-check label {
+    font-size: 20px;
+    width: 110px;
+}
+
+.creat-add-page .page-content .ad-form form .phone input::-webkit-outer-spin-button,
+.creat-add-page .page-content .ad-form form .phone input::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.creat-add-page .page-content .ad-form form .ad-describtion textarea {
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    resize: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.creat-add-page .page-content .ad-form form .ad-describtion textarea:focus {
+    outline: none;
+}
+
+.creat-add-page .page-content .ad-form form .publish {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.creat-add-page .page-content .ad-form form .publish button {
+    background-image: url("../../imgs/Rectangle\ 51@2x.png");
+    background-size: contain;
+    padding: 15px 120px;
+    color: #FFF;
+    border-radius: 100px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 2px 2px 6px #DDD;
+    cursor: pointer;
+}
+
+.creat-add-page .page-content .ad-form form .publish button:focus {
+    outline: none;
+}
+
+
+/*-------------------------------login page-------------------------------*/
+
+.login-page .page-content .login-screen,
+.register-page .page-content .register-screen,
+.code-page .page-content .code-screen,
+.password-page .page-content .password-screen {
+    background-color: #FFF;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 600px;
+    box-shadow: 4px 4px 6px #DDD;
+}
+
+.login-page .page-content .login-screen .photo,
+.register-page .page-content .register-screen .photo,
+.code-page .page-content .code-screen .photo,
+.password-page .page-content .password-screen .photo {
+    background-image: url("../../imgs/Rectangle\ 51@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.login-page .page-content .login-screen .photo img,
+.register-page .page-content .register-screen .photo img,
+.code-page .page-content .code-screen .photo img,
+.password-page .page-content .password-screen .photo img {
+    width: 60%;
+}
+
+.login-page .page-content .login-screen .row,
+.register-page .page-content .register-screen .row,
+.code-page .page-content .code-screen .row,
+.password-page .page-content .password-screen .row {
+    margin: 0;
+    height: 100%;
+}
+
+.login-page .page-content .login-screen .login-form,
+.register-page .page-content .register-screen .register-form,
+.code-page .page-content .code-screen .code-form,
+.password-page .page-content .password-screen .password-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .page-content .login-screen .login-form form,
+.register-page .page-content .register-screen .register-form form,
+.code-page .page-content .code-screen .code-form form,
+.password-page .page-content .password-screen .password-form form {
+    width: 90%;
+    text-align: center;
+}
+
+.login-page .page-content .login-screen .login-form form .form-group,
+.register-page .page-content .register-screen .register-form form .form-group,
+.code-page .page-content .code-screen .code-form form .form-group,
+.password-page .page-content .password-screen .password-form form .form-group {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.login-page .page-content .login-screen .login-form form .form-group i,
+.register-page .page-content .register-screen .register-form form .form-group i,
+.code-page .page-content .code-screen .code-form form .form-group i,
+.password-page .page-content .password-screen .password-form form .form-group i {
+    right: 70px;
+    position: absolute;
+    z-index: 5;
+    color: #FFF;
+}
+
+.login-page .page-content .login-screen .login-form form .form-group .form-control,
+.register-page .page-content .register-screen .register-form form .form-group .form-control,
+.code-page .page-content .code-screen .code-form form .form-group .form-control,
+.password-page .page-content .password-screen .password-form form .form-group .form-control {
+    background-color: #c8445b;
+    color: #FFF;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    padding: 35px 60px;
+    position: relative;
+}
+
+.login-page .page-content .login-screen .login-form form .form-group .form-control::placeholder,
+.register-page .page-content .register-screen .register-form form .form-group .form-control::placeholder,
+.code-page .page-content .code-screen .code-form form .form-group .form-control::placeholder,
+.password-page .page-content .password-screen .password-form form .form-group .form-control::placeholder {
+    color: #f6f6f6;
+}
+
+.login-page .page-content .login-screen .login-form form button,
+.register-page .page-content .register-screen .register-form form button,
+.code-page .page-content .code-screen .code-form form button,
+.password-page .page-content .password-screen .password-form form button {
+    background-color: #c8445b;
+    color: #FFF;
+    border-radius: 100px;
+    padding: 12px 120px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-page .page-content .login-screen .login-form form button:hover,
+.register-page .page-content .register-screen .register-form form button:hover,
+.code-page .page-content .code-screen .code-form form button:hover,
+.password-page .page-content .password-screen .password-form form button:hover {
+    background-color: #b63e53;
+    box-shadow: 2px 2px 6px #DDD;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.login-page .page-content .login-screen .login-form form button,
+.register-page .page-content .register-screen .register-form form button,
+.code-page .page-content .code-screen .code-form form button,
+.password-page .page-content .password-screen .password-form form button:focus {
+    outline: none;
+}
+
+.login-page .page-content .login-screen .login-form form .options {
+    margin-top: 100px;
+}
+
+.login-page .page-content .login-screen .login-form form .options .forgot {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login-page .page-content .login-screen .login-form form .options .creat {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-page .page-content .login-screen .login-form form .options a {
+    color: #c8445b;
+    font-size: 18px;
+}
+
+
+/*-------------------------------register page-------------------------------*/
+
+.register-page .page-content .register-screen .register-form form .form-group .form-control::-webkit-outer-spin-button,
+.register-page .page-content .register-screen .register-form form .form-group .form-control::-webkit-inner-spin-button,
+.code-page .page-content .code-screen .code-form form .form-group .form-control::-webkit-outer-spin-button,
+.code-page .page-content .code-screen .code-form form .form-group .form-control::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.register-page .page-content .register-screen .register-form form .notice,
+.code-page .page-content .code-screen .code-form form .notice,
+.password-page .page-content .password-screen .password-form form .notice {
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.register-page .page-content .register-screen .register-form form .notice li,
+.code-page .page-content .code-screen .code-form form .notice li,
+.password-page .page-content .password-screen .password-form form .notice li {
+    list-style-image: url("../../imgs/dot.svg");
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+
+/*------------------------------------media----------------------------------------*/
+@media screen and (max-width: 1024px){
+    .categories .icon {
+        text-align: center;
+        margin: 0 40px;
+        margin-bottom: 20px;
+    }
+
+    .categories .icon i {
+        width: 110px;
+        height: 110px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer,
+    .footer a{
+        font-size: 16px !important;
+    }
+
+    .login-page .page-content .login-screen .login-form form .form-group i,
+    .register-page .page-content .register-screen .register-form form .form-group i,
+    .code-page .page-content .code-screen .code-form form .form-group i,
+    .password-page .page-content .password-screen .password-form form .form-group i{
+        right: 50px;
+        font-size: 25px;
+    }
+
+    .login-page .page-content .login-screen .login-form form .form-group .form-control,
+    .register-page .page-content .register-screen .register-form form .form-group .form-control,
+    .code-page .page-content .code-screen .code-form form .form-group .form-control,
+    .password-page .page-content .password-screen .password-form form .form-group .form-control{
+        padding: 35px 50px;
+    }
+
+    .creat-add-page .page-content .ad-form form .publish button{
+        padding: 15px 90px;
+    }
+}
+
+@media (max-width: 500px) {
+    /*--------home--------*/
+    /*nav*/
+    .search-filter form {
+        width: 95%;
+    }
+    .search-filter form .form-group {
+        margin-bottom: 15px;
+    }
+    /*content*/
+    .categories .container .row .icon {
+        margin: 0 30px 50px;
+    }
+    .recent-ads .ads .row {
+        padding: 0;
+        margin: 0;
+    }
+    .recent-ads .ads .row .card,
+    .featured-ads .ads .row .card,
+    .cars-page .all-ads .ads .row .card {
+        margin-bottom: 50px;
+    }
+    .subscribe .inside form {
+        width: 100%;
+    }
+    /*footer*/
+    .footer .row {
+        text-align: center;
+    }
+    .footer .row .oops,
+    .footer .row .pages,
+    .footer .row .social {
+        margin-bottom: 50px;
+    }
+    /*--------cars page--------*/
+    .cars-page .search-filter .row,
+    .cars-page .all-ads .ads .row {
+        margin: 0;
+        padding: 0;
+    }
+    .cars-page .all-ads {
+        padding: 20px 0;
+    }
+    .car-details-page .page-content,
+    .creat-add-page .page-content,
+    .creat-add-page-1 .page-content,
+    .login-page .page-content,
+    .register-page .page-content,
+    .code-page .page-content,
+    .password-page .page-content {
+        padding: 50px 0;
+    }
+    /*--------car details page--------*/
+    .car-details-page .page-content .car-preview .options .row {
+        padding: 0;
+    }
+    .car-details-page .page-content .car-preview .info .row .send {
+        margin-top: 0;
+    }
+    .car-details-page .page-content .main-info {
+        margin-top: 150px;
+    }
+    /*--------creat ad page--------*/
+    .creat-add-page .page-content .ad-form,
+    .creat-add-page-1 .page-content .ad-form {
+        padding: 15px;
+    }
+    .creat-add-page .page-content .ad-form form .extentions .check-fields {
+        padding: 0;
+    }
+    .creat-add-page .page-content .ad-form form .extentions .check-fields .row .col-4 {
+        display: flex;
+    }
+    .creat-add-page .page-content .ad-form form .extentions .check-fields .form-check label {
+        margin-left: 0;
+        width: 90px;
+    }
+    /*--------login page--------*/
+    .login-page .page-content .login-screen,
+    .register-page .page-content .register-screen,
+    .code-page .page-content .code-screen,
+    .password-page .page-content .password-screen {
+        height: 800px;
+    }
+    .login-page .page-content .login-screen .photo,
+    .register-page .page-content .register-screen .photo,
+    .code-page .page-content .code-screen .photo,
+    .password-page .page-content .password-screen .photo {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+        height: 40%;
+    }
+    .login-page .page-content .login-screen .login-form,
+    .register-page .page-content .register-screen .register-form,
+    .code-page .page-content .code-screen .code-form,
+    .password-page .page-content .password-screen .password-form {
+        height: 60%;
+    }
+    .login-page .page-content .login-screen .login-form form,
+    .register-page .page-content .register-screen .register-form form,
+    .code-page .page-content .code-screen .code-form form,
+    .password-page .page-content .password-screen .password-form form {
+        width: 95%;
+    }
+    .login-page .page-content .login-screen .login-form form .form-group,
+    .register-page .page-content .register-screen .register-form form .form-group,
+    .code-page .page-content .code-screen .code-form form .form-group,
+    .password-page .page-content .password-screen .password-form form .form-group {
+        margin-bottom: 40px;
+    }
+    .login-page .page-content .login-screen .login-form form .form-group i,
+    .register-page .page-content .register-screen .register-form form .form-group i,
+    .code-page .page-content .code-screen .code-form form .form-group i,
+    .password-page .page-content .password-screen .password-form form .form-group i {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .login-page .page-content .login-screen .login-form form button,
+    .register-page .page-content .register-screen .register-form form button,
+    .code-page .page-content .code-screen .code-form form button,
+    .password-page .page-content .password-screen .password-form form button{
+        padding: 12px 100px;
+    }
+}
